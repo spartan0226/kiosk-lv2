@@ -9,6 +9,8 @@ fun main() {
 
     while(true) {
 
+        println("==============================")
+
         println(menu.getMenu())
         val choice = readLine()!!.toInt()
 
@@ -31,5 +33,7 @@ fun main() {
                 println(menu4.getMenu4())
             }
         }
+
+        println("==============================")
     }
 }
